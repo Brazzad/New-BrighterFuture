@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/blog/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@900&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    
+    <title>BRAZZARD SAMPLE</title>
+    
+</head>
+<body>
+
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md border border-dark navbar-dark bg-steel fixed-top">
+        <div class="container">
+          <span style="font-family: 'Ubuntu Mono', monospace; margin-left: 0px;"><a class="navbar-brand text-warning  mr-4" href="/">BRAZZARD SAMPLE</a></span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle" style="font-family: 'Ubuntu Mono', monospace !important;">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="/">Home</a>
+              <a class="nav-item nav-link" href="/about/">About</a>
+              <a class="nav-item nav-link" href="/">Sample Menu 1</a>
+              <a class="nav-item nav-link" href="/">Sample Menu 2</a>
+              <a class="nav-item nav-link" href="/">Sample Menu 3</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav" style="font-family: 'Ubuntu Mono', monospace;">
+              
+              <div class="tooltip">
+                <span class="tooltiptext">Log in App</span>
+              </div>
+                <a class="nav-item nav-link" href="/login/">Login</a>
+              <div class="tooltip">
+                <span class="tooltiptext">Create New Account In App</span>
+              </div>
+                <a class="nav-item nav-link" href="/register/">Register</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+   <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+          
+          
+    <div class="content-section">
+        <form method="POST">
+            <input type="hidden" name="csrfmiddlewaretoken" value="Y5Q5KSmTScBp5Om90iiQsIKQIVAtXE8GJWXiHDczz0ReHHqIYcNDnxWQxlDwRAtK">
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Join Here</legend>
+                
+
+<div id="div_id_username" class="form-group">
+   <label for="id_username" class=" requiredField">
+                Username<span class="asteriskField">
+                *</span> </label>
+                 <div class=""> 
+                  <input type="text" name="username" maxlength="150" autofocus class="textinput textInput form-control" required id="id_username"> 
+                  <small id="hint_id_username" class="form-text text-muted">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</small> 
+
+                </div> 
+              </div> 
+              <div id="div_id_email" class="form-group"> 
+                <label for="id_email" class=" requiredField">
+                Email<span class="asteriskField">*</span> 
+              </label>
+
+                 <div class=""> 
+
+                  <input type="email" name="email" class="emailinput form-control" required id="id_email"> </div> 
+                </div> 
+                <div id="div_id_password1" class="form-group"> 
+                  <label for="id_password1" class=" requiredField">
+                Password<span class="asteriskField">*</span> </label> <div class=""> <input type="password" name="password1" autocomplete="new-password" class="textinput textInput form-control" required id="id_password1"> <small id="hint_id_password1" class="form-text text-muted"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></small> </div> </div> <div id="div_id_password2" class="form-group"> <label for="id_password2" class=" requiredField">
+                Password confirmation<span class="asteriskField">*</span> </label> <div class=""> <input type="password" name="password2" autocomplete="new-password" class="textinput textInput form-control" required id="id_password2"> <small id="hint_id_password2" class="form-text text-muted">Enter the same password as before, for verification.</small> </div> </div>
+
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Sign up</button>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Already have an Account? <a class="ml-2" href="/login/">Sign in</a>
+            </small>
+        </div>
+    </div>
+
+        </div>
+        <div class="col-md-4 ml-auto " style="font-family: 'Ubuntu Mono', monospace;">
+          <div style="border-style: outset; border-width: 5px;" class="content-section text-center border border-success rounded-pill ">
+            <h3 style="text-decoration: overline;" class="font-weight-bolder" >Promotions</h3>
+            <p class='text-muted'>Top Stories
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-light">Announcements</li>
+                <li class="list-group-item list-group-item-light">Chat Room</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
